@@ -1,6 +1,0 @@
-veracode_static_scan:
-  push:
-    trigger: true
-  use_custom_workflow: vulnado-build
-  artifact_file: ./veracode-artifact/veracode-artifact.zip
-  profile: 'build'
